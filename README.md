@@ -1193,6 +1193,14 @@ the `gridcalserver`command will be available on the system.
 To launch the server, simply type `gridcalserver`. This will launch a GridCal server on the machine,
 on port 8000. This is `https://localhost:8000`
 
+Alternatively, you can run the server from Python using this code:
+
+```python
+from GridCalServer.run import start_server
+
+start_server()
+```
+
 An example on how to send a grid from a script to the server:
 
 ```python
